@@ -4,8 +4,7 @@ $f = scandir(".");
 print_r($f);
 
 $myfile = fopen("index.php", "r") or die("Unable to open file!");
-echo fread($myfile,filesize("index.php"));
 
-print_r(htmlspecialchars($myfile));
+echo htmlspecialchars($myfile);
 fclose($myfile);
 ?>
